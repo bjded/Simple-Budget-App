@@ -1,0 +1,92 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+/* General */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    background-color: #34B48A;
+}
+
+/* Login & Register Container */
+#logreg-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logreg-container h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: rgb(245, 245, 245);
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+form {
+    padding: 15px;
+    min-width: 75%;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+form label {
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+form input[type=text] {
+    padding: 5px 10px;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+form input[type=password] {
+    padding: 5px 10px;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    outline: none;
+}
+form input[type=submit] {
+    margin-bottom: 10px;
+    padding: 5px 0;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #315f50;
+    color: white;
+    border-radius: 7.5px;
+}
+form a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+#register-form {
+    display: none;
+}
+#recaptcha-container {
+	margin-bottom: 13px;
+	width: 100%;
+}
+#recaptcha-container div {
+	margin: 0 auto;
+}
